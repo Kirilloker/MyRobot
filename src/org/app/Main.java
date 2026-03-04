@@ -10,8 +10,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        var height = 10;
-        var width = 10;
+        var height = 15;
+        var width = 15;
         var start = new Position(1, 1);
         var finish = getRandomFisinhPosition(height, width);
         var barrierPercent = 40;
